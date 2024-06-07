@@ -1,0 +1,12 @@
+Aim:
+
+To implement priority scheduling technique
+
+Algorithm:
+
+1. Get the number of processes from the user.
+2. Read the process name, burst time and priority of process.
+3. Sort based on burst time of all processes in ascending order based priority
+4. Calculate the total waiting time and total turnaround time for each process
+5. Display the process name & burst time for each process.
+6. Display the total waiting time, average waiting time, turnaround time

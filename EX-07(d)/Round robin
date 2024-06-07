@@ -1,0 +1,27 @@
+
+Aim:
+
+To implement the Round Robin (RR) scheduling technique
+
+
+Algorithm:
+
+1. Declare the structure and its elements.
+2. Get number of processes and Time quantum as input from the user.
+3. Read the process name, arrival time and burst time
+4. Create an array rem_bt[] to keep track of remaining burst time of processes which is initially
+copy of bt[] (burst times array)
+5. Create another array wt[] to store waiting times of processes. Initialize this array as 0.
+6. Initialize time : t = 0
+7. Keep traversing the all processes while all processes are not done. Do following for i'th
+process if it is not done yet.
+a- If rem_bt[i] > quantum
+	(i) t = t + quantum
+	(ii) bt_rem[i] -= quantum;
+b- Else // Last cycle for this process
+	(i) t = t + bt_rem[i];
+	(ii) wt[i] = t - bt[i]
+	(iii) bt_rem[i] = 0; // This process is over
+8. Calculate the waiting time and turnaround time for each process.
+9. Calculate the average waiting time and average turnaround time.
+10. Display the results.

@@ -1,0 +1,14 @@
+Aim:
+
+To implement the Shortest Job First(SJF) scheduling technique
+
+Algorithm:
+
+1. Declare the structure and its elements.
+2. Get number of processes as input from the user.
+3. Read the process name, arrival time and burst time
+4. Initialize waiting time, turnaround time & flag of read processes to zero.
+5. Sort based on burst time of all processes in ascending order
+6. Calculate the waiting time and turnaround time for each process.
+7. Calculate the average waiting time and average turnaround time.
+8. Display the results.
