@@ -1,0 +1,9 @@
+Aim:
+To print the pass/fail status of a student in a class.
+
+Algorithm:
+1. Read the data from file
+2. Get a data from each column
+3. Compare the all subject marks column
+a. If marks less than 45 then print Fail
+b. else print Pass

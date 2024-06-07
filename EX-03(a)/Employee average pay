@@ -1,0 +1,15 @@
+AIM:
+
+To find out the average pay of all employees whose salary is more than 6000 and no. of
+days worked is more than 4.
+
+Algorithm:
+
+1. Create a flat file emp.dat for employees with their name, salary per day and number of days
+worked and save it.
+2. Create an awk script emp.awk
+3. For each employee record do
+a. If Salary is greater than 6000 and number of days worked is more than 4then print name and
+salary earned
+b. Compute total pay of employee
+4. Print the total number of employees satisfying the criteria and their average pay.

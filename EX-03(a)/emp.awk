@@ -14,5 +14,3 @@ print "total pay=" ,pay
 print "average pay=" ,pay/count
 }
 }
-
-
