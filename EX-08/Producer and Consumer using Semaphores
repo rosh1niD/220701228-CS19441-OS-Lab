@@ -1,0 +1,17 @@
+Aim:
+
+To write a program to implement solution to producer consumer problem using
+semaphores.
+
+Algorithm:
+
+1. Initialize semaphore empty, full and mutex.
+2. Create two threads- producer thread and consumer thread.
+3. Wait for target thread termination.
+4. Call sem_wait on empty semaphore followed by mutex semaphore
+before entry into criticalsection.
+5. Produce/Consumer the item in critical section.
+6. Call sem_post on mutex semaphore followed by full semaphore
+before exiting critical section.
+7. Allow the otherthread to enter its criticalsection.
+8. Terminate after looping ten times in producer and consumer threads each.
