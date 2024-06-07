@@ -1,0 +1,15 @@
+Aim:
+
+To find out the number of page faults that occur using First-in First-out (FIFO) page
+replacement technique.
+
+Algorithm:
+
+1. Declare the size with respect to page length
+2. Check the need of replacement from the page to memory
+3. Check the need of replacement from old page to new page in memory
+4. Form a queue to hold all pages
+5. Insert the page require memory into the queue
+6. Check for bad replacement and page fault
+7. Get the number of processes to be inserted
+8. Display the values

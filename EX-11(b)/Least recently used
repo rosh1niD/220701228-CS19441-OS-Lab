@@ -1,0 +1,15 @@
+AIM:
+
+To write a c program to implement LRU page replacement algorithm.
+
+Algorithm:
+
+1: Start the process
+2: Declare the size
+3: Get the number of pages to be inserted
+4: Get the value
+5: Declare counter and stack
+6: Select the least recently used page by counter value
+7: Stack them according the selection.
+8: Display the values
+9: Stop the process

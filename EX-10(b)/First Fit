@@ -1,0 +1,12 @@
+Aim:
+
+To write a C program for implementation memory allocation methods for fixed partition
+using first fit.
+
+Algorithm:
+
+1. Define the max as 25.
+2: Declare the variable frag[max],b[max],f[max],i,j,nb,nf,temp, highest=0, bf[max],ff[max].
+3: Get the number of blocks,files,size of the blocks using for loop.
+4: In for loop check bf[j]!=1, if so temp=b[j]-f[i]
+5: Check highest
